@@ -1712,10 +1712,10 @@ This guide is for educational purposes and authorized security testing only. Una
 
 ---
 
-**Author**: [Your Name]  
+**Author**:  Anousone Phyakeo  
 **Last Updated**: October 2025  
 **Version**: 2.0.0  
-**Repository**: [Your GitHub Repository URL]
+**Repository**: (https://github.com/anousonephyakeo/flutter-security-toolkit)
 
 ---
 
