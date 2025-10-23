@@ -1,2 +1,7 @@
-# flutter-security-toolkit
-A comprehensive penetration testing toolkit for Flutter applications. Includes SSL pinning bypass techniques, Frida scripts, static/dynamic analysis guides, automated security scanning tools, and real-world case studies. Everything you need to assess Flutter app security on Android &amp; iOS
+# Or via command line:
+git clone https://github.com/anousonephyakeo/flutter-security-toolkit.git
+cd flutter-security-toolkit
+# Copy the full guide content into README.md
+git add README.md
+git commit -m "Add comprehensive Flutter pentesting guide"
+git push
