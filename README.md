@@ -1,5 +1,16 @@
 # Flutter Application Penetration Testing Guide
 
+![GitHub stars](https://img.shields.io/github/stars/anousonephyakeo/flutter-security-toolkit?style=social)
+![GitHub forks](https://img.shields.io/github/forks/anousonephyakeo/flutter-security-toolkit?style=social)
+![License](https://img.shields.io/github/license/anousonephyakeo/flutter-security-toolkit)
+![Last Commit](https://img.shields.io/github/last-commit/anousonephyakeo/flutter-security-toolkit)
+![GitHub issues](https://img.shields.io/github/issues/anousonephyakeo/flutter-security-toolkit)
+
+> 🔐 A comprehensive guide for security professionals conducting penetration tests on Flutter applications across iOS and Android platforms.
+
+---
+# Flutter Application Penetration Testing Guide
+
 A comprehensive guide for security professionals conducting penetration tests on Flutter applications across iOS and Android platforms.
 
 ## Table of Contents
