@@ -1,0 +1,39 @@
+# Security Policy
+
+## Reporting Security Issues
+
+**DO NOT** open public issues for security vulnerabilities in this toolkit.
+
+### How to Report
+
+- Open a [GitHub Security Advisory](https://github.com/anousonephyakeo/flutter-security-toolkit/security/advisories/new)
+- Or email: [your-email@example.com]
+
+## Responsible Disclosure
+
+This toolkit is for **authorized security testing only**.
+
+### Always ✅
+- Get written permission before testing
+- Follow responsible disclosure practices
+- Respect applicable laws and regulations
+- Test only systems you're authorized to test
+
+### Never ❌
+- Test without explicit authorization
+- Access unauthorized data
+- Exploit vulnerabilities maliciously
+- Share vulnerabilities publicly before patches
+
+## Legal Notice
+
+**Unauthorized access to computer systems is illegal.**
+
+This toolkit is provided for educational purposes and authorized security assessments only. Users are responsible for complying with all applicable laws and regulations.
+
+## Supported Versions
+
+| Version | Supported          |
+| ------- | ------------------ |
+| 2.x     | ✅ Active support  |
+| 1.x     | ❌ No longer supported |

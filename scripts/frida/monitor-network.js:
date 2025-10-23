@@ -1,0 +1,28 @@
+/**
+ * Network Traffic Monitor
+ * Usage: frida -U -f com.app.target -l monitor-network.js
+ */
+
+Java.perform(function() {
+    console.log("[*] Network Monitor Loaded");
+    
+    var HttpURLConnection = Java.use("java.net.HttpURLConnection");
+    
+    HttpURLConnection.getRequestMethod.implementation = function() {
+        var method = this.getRequestMethod();
+        var url = this.getURL();
+        console.log("\n[HTTP Request]");
+        console.log("Method: " + method);
+        console.log("URL: " + url.toString());
+        return method;
+    };
+    
+    HttpURLConnection.getResponseCode.implementation = function() {
+        var code = this.getResponseCode();
+        var url = this.getURL();
+        console.log("\n[HTTP Response]");
+        console.log("URL: " + url.toString());
+        console.log("Status: " + code);
+        return code;
+    };
+});
